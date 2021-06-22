@@ -29,3 +29,10 @@ This fund works as following.
 - When user withdraws from the fund there is a 10% fee on the profit the fund made for them. Otherwise there is no fee.
 
 - Bonus: Connect the smart contract you create at least to two Dexes, for example Uniswap or Kyber, so as to get the best price when coverting stable coin to LINK or WETH.
+
+
+=======================================================================================
+
+1. npm install 
+2. truffle compile
+3. truffle test
