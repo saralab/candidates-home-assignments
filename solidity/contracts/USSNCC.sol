@@ -4,7 +4,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
-contract USSNCC is ERC20, Ownable, MintableToken{
+contract USSNCC is ERC20, Ownable{
     using SafeMath for uint256;
 
     constructor() public ERC20("USSNCC", "USSNCC") {
